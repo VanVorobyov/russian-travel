@@ -16,4 +16,4 @@
 
 В файловой структуре и структуре кода использовалась методология БЭМ-Nested.
 
-Ссылка на GitHub Pages.
+Ссылка - https://vanvorobyov.github.io/russian-travel/index.html
