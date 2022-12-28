@@ -1,0 +1,25 @@
+.photos {
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(284px, auto));
+  justify-items: stretch;
+  gap: 16px;
+  padding: 0 48px;
+}
+@media screen and (max-width: 1024px) {
+  .photos {
+    gap: 14px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .photos {
+    gap: 16px;
+    padding: 0 24px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .photos {
+    gap: 12px;
+    padding: 0 16px;
+  }
+}

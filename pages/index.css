@@ -1,0 +1,47 @@
+@import url(../vendors/normalize.css);
+@import url(../vendors/fonts/fonts.css);
+@import url(../blocks/page/page.css);
+/*> Header */
+@import url('../blocks/header/header.css');
+@import url('../blocks/header/__logo/header__logo.css');
+@import url('../blocks/header/__lang/header__lang.css');
+@import url('../blocks/header/__lang-link/header__lang-link.css');
+@import url('../blocks/header/__lang-link/_checked/header__lang-link_checked.css');
+/* LEAD */
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/lead/__title/lead__title.css);
+@import url(../blocks/lead/__subtitle/lead__subtitle.css);
+@import url(../blocks/lead/__image/lead__image.css);
+@import url(../blocks/lead/__caption/lead__caption.css);
+/* INTRO */
+/* ! INTRO MUST BE FLEXIBLE + ADD FEATURE WITH elastic */
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/intro/__text/intro__text.css);
+@import url(../blocks/intro/__list/intro__list.css);
+@import url(../blocks/intro/__list-item/intro__list-item.css);
+@import url(../blocks/intro/__list-span/intro__list-span.css);
+/* PHOTOS */
+@import url(../blocks/photos/photos.css);
+@import url(../blocks/photos/__item/photos__item.css);
+/*  PLACES */
+@import url(../blocks/places/places.css);
+@import url(../blocks/place/place.css);
+@import url(../blocks/place/__title/place__title.css);
+@import url(../blocks/place/__image/place__image.css);
+@import url(../blocks/place/__link-container/place__link-conteiner.css);
+@import url(../blocks/place/__link-url/place__link-url.css);
+@import url(../blocks/place/__link/place__link.css);
+@import url(../blocks/place/__text-container/place__text-container.css);
+@import url(../blocks/place/__text/place__text.css);
+/* COVER */
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__link/cover__link.css);
+@import url(../blocks/cover/__title/cover__title.css);
+@import url(../blocks/cover/__subtitle/cover__subtitle.css);
+/* FOOTER */
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__list/footer__list.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+/* ! не забудь проверить падинги между блоками! */

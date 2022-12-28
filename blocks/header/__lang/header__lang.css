@@ -1,0 +1,14 @@
+.header__lang {
+  display: flex;
+  gap: 18px;
+  margin-left: auto;
+  box-sizing: border-box;
+  position: relative;
+  top: 18px;
+}
+
+@media (max-width: 425px) {
+  .header__lang {
+    top: 14px;
+  }
+}
