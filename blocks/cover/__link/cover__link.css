@@ -1,35 +1,38 @@
 .cover__link {
-  display: block;
-  max-width: 100%;
-  padding: 245px 0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  width: 100%;
   margin: 0 auto;
   background-image: url(../../../images/1280/__background.jpg);
-  background-color: rgba(42, 44, 47, 0.3);
-  background-blend-mode: overlay;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  aspect-ratio: 1184 / 740;
   text-decoration: none;
   color: #fff;
-  transition: background-color 0.4s ease;
   box-sizing: border-box;
 }
-.cover__link:hover {
+
+.cover__link:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  aspect-ratio: 1184 / 740;
+  background-color: rgba(42, 44, 47, 0.3);
+  background-size: cover;
+  transition: background-color 0.4s ease;
+}
+.cover__link:hover::before {
   background-color: rgba(42, 44, 47, 0.8);
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 505px) {
   .cover__link {
-    padding: 195px 0;
-  }
-}
-@media screen and (max-width: 768px) {
-  .cover__link {
-    padding: 115px 0;
-  }
-}
-@media screen and (max-width: 425px) {
-  .cover__link {
-    max-width: 100%;
-    padding: 33px 0;
+    gap: 16px;
   }
 }

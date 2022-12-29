@@ -1,10 +1,12 @@
 .header__lang {
   display: flex;
   gap: 18px;
-  margin-left: auto;
+  margin: 0 0 0 auto;
   box-sizing: border-box;
   position: relative;
   top: 18px;
+  list-style: none;
+  padding: 0;
 }
 
 @media (max-width: 425px) {

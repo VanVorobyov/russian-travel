@@ -9,7 +9,7 @@
 .place__link:hover {
   color: rgba(255, 255, 255, 0.8);
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 470px) {
   .place__link {
     padding: 0 16px;
   }

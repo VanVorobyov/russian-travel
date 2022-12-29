@@ -16,10 +16,10 @@
   <!-- header -->
   <header class="header">
     <img src="./images/1280/__logo.svg" alt="Логотип России с надписью 'Россия'" class="header__logo">
-    <div class="header__lang">
-      <a href="#" class="header__lang-link header__lang-link_checked">Ru</a>
-      <a href="#" class="header__lang-link ">En</a>
-    </div>
+    <ul class="header__lang">
+      <li><a href="#" class="header__lang-link header__lang-link_checked">Ru</a></li>
+      <li><a href="#" class="header__lang-link ">En</a></li>
+    </ul>
   </header>
 
   <main class="content">
@@ -28,67 +28,70 @@
     <section class="lead">
       <h1 class="lead__title">Путешествия по России</h1>
       <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-      <img src="./images/1280/__image.jpg"
-        alt="Картинка с маршрутом путешествия от Пскова до Улан-Удэ на фоне спящего человека в поезде"
-        class="lead__image">
-
-      <p class="lead__caption">Ваша полка — верхняя</p>
+      <figure class="lead__image-box">
+        <img src="./images/1280/__image.jpg" class="lead__image"
+          alt="Картинка с маршрутом путешествия от Пскова до Улан-Удэ на фоне спящего человека в поезде">
+        <figcaption class="lead__caption">Ваша полка — верхняя</figcaption>
+      </figure>
     </section>
 
     <!-- block Intro -->
-    <section class="intro">
-      <h2 class="intro__title">Чего мы там не видели?</h2>
-      <article aria-label="survey results">
-        <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют
-          провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая
-          вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти
-          красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова —
-          смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч
-          километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
-        <ul class="intro__list">
-          <li>
-            <p class="intro__list-item">Часовых поясов <span class="intro__list-span">11</span></p>
-          </li>
-          <li>
-            <p class="intro__list-item">Объектов природного наследия ЮНЕСКО <span class="intro__list-span">12</span></p>
-          </li>
-          <li>
-            <p class="intro__list-item">Объектов культурного наследия ЮНЕСКО <span class="intro__list-span">16</span>
-            </p>
-          </li>
-          <li>
-            <p class="intro__list-item">Природных заповедников <span class="intro__list-span">105</span></p>
-          </li>
-          <li>
-            <p class="intro__list-item">Аэропортов <span class="intro__list-span">241</span></p>
-          </li>
-        </ul>
-      </article>
+    <section class="intro" aria-label="survey results">
+      <h2 class="intro__title">Чего мы там не&nbsp;видели?</h2>
+      <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют
+        провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая
+        вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти
+        красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова —
+        смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч
+        километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
+      <ul class="intro__list">
+        <li>
+          <p class="intro__list-item">Часовых поясов <span class="intro__list-span">11</span></p>
+        </li>
+        <li>
+          <p class="intro__list-item">Объектов природного наследия ЮНЕСКО <span class="intro__list-span">12</span></p>
+        </li>
+        <li>
+          <p class="intro__list-item">Объектов культурного наследия ЮНЕСКО <span class="intro__list-span">16</span>
+          </p>
+        </li>
+        <li>
+          <p class="intro__list-item">Природных заповедников <span class="intro__list-span">105</span></p>
+        </li>
+        <li>
+          <p class="intro__list-item">Аэропортов <span class="intro__list-span">241</span></p>
+        </li>
+      </ul>
     </section>
 
     <!-- block Photos -->
     <section class="photos" aria-label="Photos">
-      <img src="./images/1280/__item-1.jpg" alt="Картинка окна вагона поезда, в котором видно березы и море"
-        class="photos__item">
-      <img src="./images/1280/__item-2.jpg" alt="Картинка 'Вид сверху на снежные горы и кучевые облака'"
-        class="photos__item">
-      <img src="./images/1280/__item-3.jpg" alt="Картинка 'В поле собака сидит на стоге сена на закате'"
-        class="photos__item">
-      <img src="./images/1280/__item-4.jpg" alt="Картинка 'Вид сверху на ели в облаках'" class="photos__item">
-      <img src="./images/1280/__item-5.jpg" alt="Картинка 'Колесо машины на льду'" class="photos__item">
-      <img src="./images/1280/__item-6.jpg" alt="Картинка 'Морское побережье на фоне гор'" class="photos__item">
-      <img src="./images/1280/__item-7.jpg" alt="Картинка 'Снежные скалы'" class="photos__item">
-      <img src="./images/1280/__item-8.jpg" alt="Картинка 'Знак пешеходного перехода с бетонными конусами'"
-        class="photos__item">
-      <img src="./images/1280/__item-9.jpg" alt="Картинка 'Вид сверху на холмы и горы'" class="photos__item">
-      <img src="./images/1280/__item-10.jpg" alt="Картинка 'Горная вершина и поле'" class="photos__item">
-      <img src="./images/1280/__item-11.jpg" alt="Картинка 'Крутой склон горы зимой'" class="photos__item">
-      <img src="./images/1280/__item-12.jpg" alt="Картинка 'Вершины гор в облаках'" class="photos__item">
+      <ul class=" photos__list">
+        <li><img src=" ./images/1280/__item-1.jpg" alt="Картинка окна вагона поезда, в котором видно березы и море"
+            class="photos__item">
+        </li>
+        <li><img src=" ./images/1280/__item-2.jpg" alt="Картинка 'Вид сверху на снежные горы и кучевые облака'"
+            class="photos__item"></li=>
+        <li><img src=" ./images/1280/__item-3.jpg" alt="Картинка 'В поле собака сидит на стоге сена на закате'"
+            class="photos__item"></li>
+        <li><img src=" ./images/1280/__item-4.jpg" alt="Картинка 'Вид сверху на ели в облаках'" class="photos__item">
+        </li>
+        <li><img src=" ./images/1280/__item-5.jpg" alt="Картинка 'Колесо машины на льду'" class="photos__item"></li>
+        <li><img src="./images/1280/__item-6.jpg" alt="Картинка 'Морское побережье на фоне гор'" class="photos__item">
+        </li>
+        <li><img src="./images/1280/__item-7.jpg" alt="Картинка 'Снежные скалы'" class="photos__item"></li>
+        <li><img src="./images/1280/__item-8.jpg" alt="Картинка 'Знак пешеходного перехода с бетонными конусами'"
+            class="photos__item"></li>
+        <li><img src="./images/1280/__item-9.jpg" alt="Картинка 'Вид сверху на холмы и горы'" class="photos__item"></li>
+        <li><img src="./images/1280/__item-10.jpg" alt="Картинка 'Горная вершина и поле'" class="photos__item"></li>
+        <li><img src="./images/1280/__item-11.jpg" alt="Картинка 'Крутой склон горы зимой'" class="photos__item "></li>
+        <li><img src="./images/1280/__item-12.jpg" alt="Картинка 'Вершины гор в облаках'" class="photos__item"></li>
+      </ul>
     </section>
 
     <!-- block Places -->
     <section class="places">
-      <div class="places__place place">
+      <article class="place">
         <h2 class="place__title">Куршская коса</h2>
         <div class="place__link-container">
           <span class="place__link-url">Url</span>
@@ -109,8 +112,9 @@
             стального,
             прохладного моря.</p>
         </div>
-      </div>
-      <div class="places__place place">
+      </article>
+
+      <article class="place">
         <h2 class="place__title">Кольский</h2>
         <div class="place__link-container">
           <span class="place__link-url">Url</span>
@@ -127,8 +131,9 @@
             накрывает апатия. Но ваша мечта увидеть северное сияние начинает сбываться с билетом
             в Мурманск.</p>
         </div>
-      </div>
-      <div class="places__place place">
+      </article>
+
+      <article class="place">
         <h2 class="place__title">Алтай</h2>
         <div class="place__link-container">
           <span class="place__link-url">Url</span>
@@ -145,9 +150,9 @@
             разнообразие местной флоры и фауны. По лесам Алтая бродят лоси, над хребтами летают орлы, а на равнинах
             пасутся косули. И знаменитые манулы — тоже обитатели Алтайского края.</p>
         </div>
-      </div>
+      </article>
 
-      <div class="places__place place">
+      <article class="place">
         <h2 class="place__title">Зимний Байкал</h2>
         <div class="place__link-container">
           <span class="place__link-url">Url</span>
@@ -163,10 +168,9 @@
             к мотоциклу, и тандем старается развить как можно бóльшую скорость на льду. В марте 2019 года на фестивале
             «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.</p>
         </div>
-      </div>
+      </article>
 
-
-      <div class="places__place place">
+      <article class="place">
         <h2 class="place__title">Карелия</h2>
         <div class="place__link-container">
           <span class="place__link-url">Url</span>
@@ -183,16 +187,13 @@
             В девственном лесу на сотню километров не встретишь тропы. А на редких тропинках деревья
             в паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.</p>
         </div>
-      </div>
-
-
-
+      </article>
     </section>
 
     <!-- block cover -->
     <section class="cover">
       <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__link">
-        <h2 class="cover__title">До Байкала «на собаках»</h2>
+        <h2 class="cover__title">До Байкала «на&nbsp;собаках»</h2>
         <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на
           электричках.
         </p>
@@ -213,7 +214,6 @@
       </ul>
     </nav>
     <p class="footer__copyright"> &#169; 2022. Иван Воробьев</p>
-
   </footer>
 
 </body>

@@ -3,7 +3,8 @@
   font-size: 18px;
   line-height: 22px;
   text-align: center;
-  margin: 0 auto;
+  margin: 0;
+  z-index: 1;
 }
 @media screen and (max-width: 505px) {
   .cover__subtitle {

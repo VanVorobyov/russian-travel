@@ -6,9 +6,6 @@
 }
 @media screen and (max-width: 425px) {
   .place__text-container {
-    max-width: 484px;
-    display: flex;
-    flex-direction: column;
     gap: 25px;
   }
 }
